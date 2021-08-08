@@ -1,8 +1,14 @@
+import { Dashboard } from './components/Dashboard';
+import { Header } from './components/header';
+import { GlobalStyled } from './styles/globals'
+
 export function App() {
   return (
-    <div className="App">
-      <h1>Hellor world</h1>
-    </div>
+    <>
+      <Header />
+      <Dashboard />
+      <GlobalStyled />
+    </>
   );
 }
 
